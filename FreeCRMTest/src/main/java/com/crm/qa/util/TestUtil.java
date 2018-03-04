@@ -64,8 +64,5 @@ public class TestUtil extends TestBase{
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 		
 		}
-	
-
-	
 
 }
