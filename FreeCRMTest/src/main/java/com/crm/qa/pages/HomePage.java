@@ -21,7 +21,7 @@ public class HomePage extends TestBase {
 	WebElement newContactLink;
 	
 
-	@FindBy(xpath = "//a[contains(text(),'Deals')]")
+	@FindBy(xpath = "//a[contains(text(),'Deals')]")   ////a[contains(text(),'Deals')]
 	WebElement dealsLink;
 
 	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
