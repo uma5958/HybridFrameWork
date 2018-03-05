@@ -68,10 +68,11 @@ public class ContactsPageTest extends TestBase{
 	
 	
 	@Test(priority=4, dataProvider="getCRMTestData")
-	public void VALIDATECREATENEWCONTACT(String title, String firstName, String lastName, String company){
+	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
 		homePage.clickOnNewContactLink();
 		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
 		contactsPage.createNewContact(title, firstName, lastName, company);
+		
 	}
 	
 	
